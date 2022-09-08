@@ -1,11 +1,11 @@
 //código a ser reescrito
 
 const nome = prompt("Digite seu nome: ");
-const idade = prompt("Digite sua idade: ");
+const idade = Number(prompt("Digite sua idade: "));
 
 nome === "José" ? alert("Oi, Zé!") : alert("Olá, " + nome);
 
-+idade >= 18 ? alert("pode tirar carteira de motorista!") : alert("Ainda não pode tirar carteira de motorista!");
+idade >= 18 ? alert("pode tirar carteira de motorista!") : alert("Ainda não pode tirar carteira de motorista!");
 
 
 /*if(nome === "José"){
